@@ -1,0 +1,380 @@
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+/* --------------------------------------- ver mas--------------------------- */
+
+.ver-mas:hover {
+  color: #2e86c1;
+  /* background: red;
+    background-color: red; */
+}
+
+a.ver-mas-a .ver-mas-a:hover {
+  /* background: orange ; */
+  border-radius: 6px;
+  box-shadow: 5px 10px 12px #aab7b8;
+  transition: 0.3s ease;
+}
+
+/* ------------------------- love ------------------------------ */
+
+/*.icons--love--view {*/
+/*   background: black; */
+/*  font-size: 90px;*/
+/*}*/
+
+.overlay {
+width: 34px;
+  height: 32px;
+  top: 2%;
+  left: 78%;
+  background-color: rgba(253, 254, 254, 0.4);
+  font-size: 23px;
+  border-radius: 30px;
+  position: absolute; /*permite poner sobre ensima*/
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.box-love:hover .overlay {
+  opacity: 1;
+}
+.box-efect {
+    box-shadow: 5px 10px 12px #d5dbdb;
+    border-radius: 6px;
+    height: 384;
+}
+.box-efect:hover {
+
+    border-radius: 6px;
+    box-shadow: 5px 10px 12px #aab7b8;
+    transition: 0.3s ease;
+}
+/* ------------------ page -------------------------- */
+
+.page-item {
+  /* background: orange;   */
+}
+.page-link {
+  /* box-shadow: 5px 10px 12px #D5DBDB; */
+  box-shadow: 5px;
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  margin: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-link:hover {
+  background: #05bbff;
+  color: white;
+  border-color: #05bbff;
+}
+
+/*-------------cart--------------*/
+/**{*/
+/*    background:#F2EFEF;*/
+/*}*/
+.container--flip {
+  width: 94%;
+  /*background: blue;*/
+}
+.box--flip--one {
+  /*width: 72%;*/
+}
+.box--icons--delete {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 46%;
+}
+.text--cart--foo {
+  font-size: 12px;
+}
+
+
+/* log admin */
+.form--frm--adminLog{
+height: 18rem;
+}
+.input--frm--adminLog{
+  background: #E7F9EB;
+  border-color: #98EFCC;
+}
+.input--frm--adminLog:hover{
+box-shadow: 0 0 5px #19C27D;
+}
+.input--frm--adminLog:focus{
+background: #E8F0FE;
+}
+
+/* log user */
+.form--frm--userLog{
+    height: 24rem;
+}
+.input--frm--userLog{
+    background: #E7F9EB;
+    border-color: #98EFCC;
+}
+.input--frm--userLog:hover{
+  box-shadow: 0 0 5px #19C27D;
+}
+.input--frm--userLog:focus{
+  background: #E8F0FE;
+}
+.form-control:focus-visible {
+  box-shadow: 0 0 2px #0D6EFD;
+}
+
+.form--frm--userRegistro{
+    height: 29rem;
+}
+.form--frm--userRecuperar{
+    height: 19rem;
+
+}
+
+/* form recuperacion de clave */
+.form__input__vacio{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+.form__input__email__correcto{
+ /* background:#D1F4FF; */
+ background:#E2FAEC;
+ border-radius: 6px;
+ font-size: 14px;
+ /* padding-top:12px; */
+ padding: 12px 12px 12px 12px;
+
+}
+
+/* form envio de clave */
+/* .form--frm--userRecuperar--correcto{ */
+    .form--correcto{
+    height: 25rem;
+
+}
+.form__text__vacio{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+
+}
+.form__btn__vacio{
+    margin-bottom: 0;
+    display: none;
+
+}
+
+/* box register validar correo */
+.input--frm--errorValidacion{
+    background: #FFC5C5;
+    border-color:#e50030;
+    border-width:2px;
+}
+.input--frm--errorValidacion:hover{
+    /* border-color:#9e1a1a; */
+    border-color:#e50030;
+    border-width: 4px;
+}
+.text--frm--msgError{
+    color:#e50030;
+    font-size:12px;
+}
+.text--frm--msgVacio{
+    /* outline: none; */
+    /* font-size: none; */
+    /* display: block; */
+    /* margin-bottom: 0; */
+    display: none;
+}
+/*  correcto validacion*/
+.input--frm--bienValidacion{
+    /* background: #209F82; */
+    /* opacity:0.6; */
+    border-color:#1ed12d;
+    border-width:2px;
+}
+.input--frm--bienValidacion:hover{
+    border-color:#1ed12d;
+    border-width: 4px;
+}
+.text--frm--msgBien{
+    color:#209F82;
+    font-size:12px;
+
+}
+
+/* icons */
+
+/* ----------------es el svg ------------ */
+.icon--frm--vacio {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+  }
+  .icon--frm--bienValidacion {
+    position: absolute;
+    /* width: 20px;
+    height: 20px; */
+    left: 84%;
+    top: 30%;
+    /* margin-top: ; */
+    font-size: 18px;
+    /* font-weight: 800; */
+    color: #1ed12d;
+  }
+  /* .icon--frm--errorValidacion {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 88%;
+    top: 52%;
+    font-size: 18px;
+    color: #e50030;
+  } */
+
+  /* -------slayder de search */
+.slay--carusel{
+    background: white;
+}
+.box-slay-search{
+    /* border-color: red; */
+}
+
+
+/* ----------------- search validar --------------- */
+
+.box-search-validar{
+    /* background-color: #E3FAED; */
+    /* background-color: #57CAA7; */
+    width: 50rem;
+}
+.box--home--text{
+/* background: #e50030; */
+height: 70px;
+}
+
+
+
+
+/* box producto  home*/
+/* .box--btn--addHomeP{
+    background-color: #57CAA7;
+    height: 264px;
+} */
+.box--btn--addHome{
+/* background-color: #2e86c1; */
+/* margin-top: 3rem; */
+/* display:flex ;
+align-items: flex-end; */
+/* position: relative ; */
+/* position: absolute; */
+/* height: 464px; */
+/* height: 264px; */
+
+/* display: flex;
+ align-items: flex-end; */
+/* margin-top: 5rem; */
+/* top: 3rem; */
+}
+
+    /* margin-top: 10rem; */
+
+
+/* ----- */
+/* .arrow--box{
+    background: #1ed12d; */
+/* display: block; */
+    /* position: none; */
+/* margin-top: 100px; */
+/* } */
+
+/* box ---perfil edit */
+
+.content--perfil--user{
+    margin-bottom: 10rem;
+}
+
+/* ---------- box imagen  */
+@media (max-width: 700px) {
+  .box--text--pre{
+    font-size: 14px;
+  }
+  .box--search--yes{
+    height: 358px;
+  }
+  .title--box--pro{
+    height: 50px;
+    font-size: 12px;
+
+    /* margin-bottom: 4rem; */
+  }
+
+}
+
+@media (min-width: 700px) {
+
+  .box--search--yes{
+    height: 25rem;
+  }
+  .title--box--pro{
+    height: 50px;
+    font-size: 17px;
+}
+  .box--text--pre{
+    font-size: 16px;
+  }
+  .title--box--pro-view{
+    height: 58px;
+    font-size: 17px;
+  }
+
+  .box--produ--view{
+    height:430px;
+
+  }
+}
+
+/* box perfil  img*/
+.box--perfil--home{
+ border: #84FAB0;
+ border-radius: 14px;
+ border-style:dashed;
+ border-width: 4px;
+ height: 190px;
+}
+
+/* box input search */
+.input--search--home{
+  height: 50px;
+  border-color:none;
+}
+.input--search--home:hover{
+  border-color: #6ABEA5;
+  box-shadow: 0px 1px  12px #6ABEA5;
+}
+.input--search--home:focus{
+  border-color: #6ABEA5;
+  box-shadow: 0px 2px #6ABEA5;
+}
+.input--search--home:focus-visible{
+box-shadow: 0 0 2px #6ABEA5;
+}

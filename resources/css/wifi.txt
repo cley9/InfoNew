@@ -1,0 +1,18 @@
+Ejecuta el solucionador de problemas de red:
+Haz clic en Inicio > Configuración > Sistema > Solucionar problemas > Otros solucionadores de problemas.
+En Otro, selecciona Adaptador de red y haz clic en Ejecutar1.
+Actualiza los controladores para el adaptador de red:
+Haz clic en Inicio, escribe devmgmt.msc y presiona Enter.
+Busca el adaptador de red, haz clic derecho en el dispositivo y selecciona Desinstalar.
+Marca la casilla junto a “Eliminar archivos de controlador para este dispositivo”.
+Instala los controladores más recientes para el dispositivo desde el sitio web del fabricante1.
+Ejecuta comandos de red:
+Escribe cmd en la barra de búsqueda de Windows.
+Haz clic derecho en “Símbolo del sistema” y selecciona “Ejecutar como administrador”.
+Escribe los siguientes comandos uno por uno y presiona Enter después de cada uno:
+ipconfig /renew
+ipconfig /release
+ipconfig /flushdns
+netsh winsock reset
+Copiar
+Reinicia tu dispositivo después de ejecutar los comandos1.
